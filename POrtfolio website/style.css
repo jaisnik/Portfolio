@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Sansita+Swashed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Balsamiq Sans', cursive ;
+}
+body{
+   min-height:100vh;
+   background:url("images/bg.jpeg");
+   display: flex;
+   flex-direction: column;
+  
+}
+
+header {
+
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+   color: aliceblue;
+   font-weight: 700;
+   text-decoration: none;
+   font-size:2em;
+   text-transform: uppercase;
+   letter-spacing:2px;
+}
+
+ul{
+
+   display: flex;
+   justify-content: centre;
+   align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius:20px;
+}
+
+ul li a:hover{
+
+    background: rgb(44, 43, 43);
+    color: white;
+}
+
+a.active,a:hover{
+    background: rgb(44, 43, 43);
+}
+
+.content{
+   
+color:rgb(245, 245, 245);
+position: absolute;
+top: 20%;
+left:20%;
+transform: translate(-50%);
+z-index: 2;
+
+}
+
+.Profile{
+   
+    object-fit: cover;
+    position: absolute;
+    top: 17%;
+    left: 60%;
+    }
+
+aside {
+
+color:rgb(245, 245, 245);
+position: absolute;
+top: 40%;
+left:24%;
+transform: translate(-50%);
+z-index: 2;
+}
+
+.Hobbies{
+   
+    color:rgb(245, 245, 245);
+    position: absolute;
+    top: 70%;
+    left:16%;
+    transform: translate(-50%);
+    z-index: 2;
+    }
+
+
+.footer {
+        position: fixed;
+        text-align: center;  
+        background-color: rgb(26, 25, 25);
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: "Balsamiq Sans", cursive ;
+        padding-top:62px;
+        color:aliceblue;
+}
+
+.column-right{
+color:rgb(245, 245, 245);
+position: absolute;
+bottom:2%;
+left:10%;
+transform: translate(-50%);
+z-index: 2;
+}
+.column-middle{
+    color:rgb(245, 245, 245);
+    position: absolute;
+    bottom:2%;
+    left:45%;
+    transform: translate(-50%);
+    z-index: 2;
+
+}
+.column-left{
+
+color:rgb(245, 245, 245);
+    position: absolute;
+    bottom:2%;
+    left:85%;
+    transform: translate(-50%);
+    z-index: 2;
+}
